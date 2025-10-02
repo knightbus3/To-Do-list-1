@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+  max-width: 500px;
+  margin: 50px auto;
+  text-align: center;
+  background-color: papayawhip;
+}
+
+input {
+  padding: 8px;
+  width: 60%;
+}
+
+button {
+  padding: 10px 15px;
+  margin-left: 10px;
+  background-color: rgba(209, 117, 132, 0.486);
+  border: 1px solid black;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+button:hover{
+    background-color: white;
+    color: brown;
+}
+
+li {
+  list-style: none;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+
+li button {
+  margin-left: 10px;
+}
